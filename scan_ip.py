@@ -29,7 +29,7 @@ def get_ip_report(ip):
         print(f"País: {pais}")
         print(f"Clasificación: {clasificacion}")
         print("Análisis reciente:")
-        print(f"  - Verdaderos Positivos: {last_analysis_stats.get('malicious', 0)}")
+        print(f"  - Maliciosos: {last_analysis_stats.get('malicious', 0)}")
         print(f"  - Limpios: {last_analysis_stats.get('harmless', 0)}")
         print(f"  - Suspiciosos: {last_analysis_stats.get('suspicious', 0)}")
         print(f"  - Desconocidos: {last_analysis_stats.get('undetected', 0)}")
