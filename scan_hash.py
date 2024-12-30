@@ -1,7 +1,7 @@
 import requests
 
 # Tu clave de API de VirusTotal
-API_KEY = "d9b874b4c567c89cbcda5f1c9992cb151d87ab85fdaf0e4905562473157c3510"
+API_KEY = "d-"
 # URL base de la API de VirusTotal
 BASE_URL = "https://www.virustotal.com/api/v3/files/"
 
